@@ -57,7 +57,7 @@ function App() {
       <div ref={mapRef} className={`${Styles.map} ${mapElementIsVisible ? Styles.animatetoright : ''}`}>
         <MAP/>
       </div>
-      <div ref={graphRef} className={`${Styles.graph} ${graphElementIsVisible ? Styles.animatetoleft : ''}`}>
+      <div ref={graphRef} className={`${Styles.graph} ${graphElementIsVisible ? Styles.animatetoright : ''}`}>
         <GRAPH/>
       </div>
     </section>
