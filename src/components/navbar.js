@@ -17,10 +17,10 @@ const Navbar = () => {
         <header>
             <h3>{title}</h3>
             <nav ref={navRef} className="nav-menu">
-                <a href="/#home">{home}</a>
-                <a href="/#about">{about}</a>
-                <a href="/#projects">{projects}</a>
-                <a href="/#contacts">{contacts}</a>
+                <a href="#home">{home}</a>
+                <a href="#about">{about}</a>
+                <a href="#projects">{projects}</a>
+                <a href="#contacts">{contacts}</a>
                 <button className="nav-btn nav-closbtn" onClick={showNavbar}>
                     <FaTimes/>
                 </button>
