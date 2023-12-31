@@ -7,6 +7,7 @@ const Images ={
     flomo: require('./flomo.jpg'),
     video: require('./video.mp4'),
     imgKenR: require('./kenR.jpg'),
+    weather_app: require('./weather_app.jpg'),
 }
 
 export default Images;

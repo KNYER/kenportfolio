@@ -17,5 +17,13 @@ export const PROJECT_DATA = [
     linkImg:
       Images.secqr, 
 },
+{
+  id : 3,
+  title: "Weather App",
+  Disc: "A simple React weather app utilizing Openweather API ",
+  Repo: "https://github.com/KNYER/weather_app.git",
+  linkImg:
+    Images.weather_app, 
+},
 
 ]
