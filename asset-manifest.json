@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kenportfolio/static/css/main.202f8b0a.css",
-    "main.js": "/kenportfolio/static/js/main.d908d76a.js",
+    "main.css": "/kenportfolio/static/css/main.a3a192f1.css",
+    "main.js": "/kenportfolio/static/js/main.1740806e.js",
     "static/js/787.ac6a4913.chunk.js": "/kenportfolio/static/js/787.ac6a4913.chunk.js",
     "static/media/video.mp4": "/kenportfolio/static/media/video.17cf6613e577f40dfa5b.mp4",
     "static/media/MARTINEZ_RESUME.pdf": "/kenportfolio/static/media/MARTINEZ_RESUME.3bcf13bc9c13e7a4c3af.pdf",
@@ -16,12 +16,12 @@
     "static/media/slick.ttf": "/kenportfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/kenportfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/kenportfolio/index.html",
-    "main.202f8b0a.css.map": "/kenportfolio/static/css/main.202f8b0a.css.map",
-    "main.d908d76a.js.map": "/kenportfolio/static/js/main.d908d76a.js.map",
+    "main.a3a192f1.css.map": "/kenportfolio/static/css/main.a3a192f1.css.map",
+    "main.1740806e.js.map": "/kenportfolio/static/js/main.1740806e.js.map",
     "787.ac6a4913.chunk.js.map": "/kenportfolio/static/js/787.ac6a4913.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.202f8b0a.css",
-    "static/js/main.d908d76a.js"
+    "static/css/main.a3a192f1.css",
+    "static/js/main.1740806e.js"
   ]
 }
