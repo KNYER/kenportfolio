@@ -9,7 +9,10 @@
   padding: 0;
   margin: 0;
   box-sizing:0;
+  
 }
+
+
 
 :root{
   --mainColor:#363F56 ;
@@ -23,6 +26,10 @@ html{
 
 body{
   background-color: #363F56;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 /*NAVIGATION*/
 header{
