@@ -9,7 +9,7 @@ import Styles from './App.module.css';
 import  './App.css';
 import PRJSLD from './components/ProjSlider';
 import { useRef, useEffect,useState } from 'react';
-
+import Images from './img';
 
 function App() {
   const myRef = useRef();
@@ -39,7 +39,7 @@ function App() {
     <div className={Styles.App}>
       <Navbar></Navbar>
       <section className={Styles.home} id='home'>
-      
+    
       <div className={Styles.ide}>
         <IDE/>
       </div>

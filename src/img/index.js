@@ -1,5 +1,4 @@
 
-
 const Images ={
     imgKen: require('./ken.jpg'),
     resume: require('./MARTINEZ_RESUME.pdf'),
@@ -8,6 +7,7 @@ const Images ={
     video: require('./video.mp4'),
     imgKenR: require('./kenR.jpg'),
     weather_app: require('./weather_app.jpg'),
+    ushoot: require('./ushoot.jpg'),
 }
 
 export default Images;
