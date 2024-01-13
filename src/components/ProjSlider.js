@@ -63,8 +63,11 @@ const PRJSLD = () => {
       </h1>
       <Slider {...settings}>
         {PROJECT_DATA.map((item, index) => (
-         <a href={item.url} className="cardurl">
-          <div className="card" key={item.title + index}>
+          <div
+            className="card"
+            key={item.title + index}
+            onClick={() => (window.location.href = item.url)}
+          >
             <div className="card-top">
               <img
                 src={
@@ -88,7 +91,6 @@ const PRJSLD = () => {
               <span className="category">{item.category}</span>
             </div>
           </div>
-          </a> 
         ))}
       </Slider>
     </div>
