@@ -15,17 +15,17 @@
 
 
 :root{
-  --mainColor:#363F56 ;
-  --maiinColorLight:#5767aa ;
+  --mainColor:#eed6be ;
+  --maiinColorLight:#f3f3f3 ;
   --secondaryColor: #DB2B39;
-  --textColor: #eee; 
+  --textColor: #df7e1d; 
 }
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  background-color: #363F56;
+  background-color: #f3f3f3;
 }
 
 body::-webkit-scrollbar {
@@ -39,8 +39,8 @@ header{
   justify-content: space-between;
   height: 5%;
   padding: 0 2rem;
-  background-color: var(--mainColor);
-  color: var(--textColor);
+  background-color:#df7e1d;
+  color: var(--maiinColorLight);
   position:fixed;
   z-index: 2;
 }
@@ -56,7 +56,7 @@ nav {
 
 nav a {
   margin: 0 20px; 
-  color: var(--textColor);
+  color: var(--maiinColorLight);
   text-decoration: none;
 }
 
@@ -134,7 +134,7 @@ section{
   display: flex; /* Use flexbox to center content */
   align-items: center;
   justify-content: flex-start;
-  background-color: #272D3D;
+  background-color: #f3f3f3;
   border: 2px solid #363F56;
   border-radius: 0px;
 }
@@ -175,6 +175,7 @@ section{
 }
 
 .resume{
+  background-color: #df7e1d;
   border-radius: 20px;
   cursor: pointer;
   margin: 20px;
@@ -228,7 +229,7 @@ section{
   width: 100%;
   overflow: hidden;
   align-items: center;
-  background-color: #272D3D;
+  background-color: #f3f3f3;
   z-index: -2;
 }
 
@@ -266,12 +267,12 @@ section{
 }
 
 .card {
-  border: 1px solid #fff;
-  background: #363F56;
+  border: 5px solid #df7e1d;
+  background:#f3f3f3;
   border-radius: 8px;
   overflow: hidden;
   height: 400px;
-  color: #fff;
+  color: #df7e1d;
   cursor: pointer;
 }
 
@@ -301,11 +302,12 @@ section{
 }
 
 .repobttn{
-  border-radius: 7px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: none;
   width: 70px;
-  background: #fff;
+  background: #ffab4c;
   color: var(--mainColor);
   padding: 2%;
   margin-left: 20%;
@@ -314,7 +316,7 @@ section{
 .repobttn:hover{
   box-shadow: 0px 0px 100px 10px lightblue;
   transition: 1s;
-  background: var(--maiinColor);
+  background: var(--secondaryColor);
   color: var(--textColor);
 }
 
@@ -378,18 +380,20 @@ section{
 }
 
 .email textarea{
-  border-radius: 10px;
+  border-radius: 5px;
   height: 100px;
   font-size: 20px;
-  background-color: #272D3D;
-  color: #fff;
+  background-color: var(--textColor);
+  color: var(--maiinColorLight);
 }
 
 .email input{
-  border-radius: 10px;
+  border-radius: 5px;
+  border: none;
   height: 30px;
-  background-color: #272D3D;
-  color: #fff;
+  font-size: 20px;
+  background-color: var(--textColor);
+  color: var(--maiinColorLight);
 }
 @media only screen and (max-width:1024px){
   
@@ -443,6 +447,7 @@ section{
     width: 1fr;
   }
 
+
   .ide {
     grid-area: 1/1/2/3;
     display: flex;
@@ -450,7 +455,7 @@ section{
     justify-content: center;
     transition: 1s;
     font-size: 20px;
-    opacity: 70%;
+    opacity: 100%;
   }
 
   .graph{

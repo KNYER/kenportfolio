@@ -38,13 +38,13 @@ const GRAPH = () => {
           }}
         >
           
-          <CartesianGrid stroke="#ffffff" strokeDasharray="3 3" />
-          <XAxis dataKey="name" stroke="#ffffff"  />
+          <CartesianGrid stroke="#df7e1d" strokeDasharray="3 3" />
+          <XAxis dataKey="name" stroke="#df7e1d"  />
           <Tooltip
-            labelStyle={{ color: '#272D3D' }} 
+            labelStyle={{ color: '#df7e1d' }} 
             itemStyle={{ color: '#272D3D' }} 
     />
-          <Bar dataKey="proficiency" stackId="a" fill="#939AAE" activeBar={<Rectangle fill="#272D3D" stroke="blue" />}  />
+          <Bar dataKey="proficiency" stackId="a" fill="#df7e1d" activeBar={<Rectangle fill="#272D3D" stroke="blue" />}  />
         
         </BarChart>
       </ResponsiveContainer>
