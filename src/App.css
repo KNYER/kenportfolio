@@ -71,7 +71,7 @@ header .nav-btn{
   background: transparent;
   border: none;
   outline: none;
-  color: var(--textColor);
+  color: var(--maiinColorLight);
   visibility: hidden;
   opacity: 0;
   font-size: 1.3rem;
@@ -105,7 +105,7 @@ section{
 }
 
 .classif{
-  color: #DB2B39;
+  color: #781720;
 }
 .imgkn{
   box-shadow: 0px 0px 0px 0px #11141b ;
@@ -177,13 +177,14 @@ section{
 .resume{
   background-color: #df7e1d;
   border-radius: 20px;
+  color: var(--maiinColorLight);
   cursor: pointer;
   margin: 20px;
 }
 
 .resume:hover{
-  box-shadow: 0px 0px 100px 10px lightblue;
   transition: 1s;
+  background-color: #781720;
 }
 
 .map{
@@ -308,7 +309,7 @@ section{
   box-shadow: none;
   width: 70px;
   background: #ffab4c;
-  color: var(--mainColor);
+  color: #781720;
   padding: 2%;
   margin-left: 20%;
 }
@@ -316,8 +317,8 @@ section{
 .repobttn:hover{
   box-shadow: 0px 0px 100px 10px lightblue;
   transition: 1s;
-  background: var(--secondaryColor);
-  color: var(--textColor);
+  background: #781720;
+  color: var(--maiinColorLight);
 }
 
 /*CONTAACTS*/
@@ -365,7 +366,7 @@ section{
 
 .icons a:hover{
   transform: translateY(20px);
-  color: #DB2B39;
+  color: #781720;
 }
 
 .icons > * {
@@ -381,6 +382,7 @@ section{
 
 .email textarea{
   border-radius: 5px;
+  border: none;
   height: 100px;
   font-size: 20px;
   background-color: var(--textColor);
@@ -415,7 +417,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-color: var(--textColor);
     transition: 1s;
     transform: translateY(-1000vh);
   }
