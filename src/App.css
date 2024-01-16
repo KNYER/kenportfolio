@@ -490,7 +490,9 @@ section{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
   }
- 
+ .imgknR{
+  visibility: hidden;
+ }
   
 
 }
