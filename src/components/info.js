@@ -14,7 +14,7 @@ const INFO = () => {
         <div>
             <h1>{text} <Cursor/></h1>
             <p>
-            Hello! I'm a Bachelors Degree holder of Information Technology from Batangas State University passionate about web development. Skilled in HTML, CSS, JavaScript, and mastering React.js for dynamic frontends. I enjoy crafting seamless user experiences and staying updated with industry trends. Let's connect and explore opportunities together!</p>
+            Hello! I'm a Bachelors Degree holder in Information Technology from Batangas State University passionate about web development. Skilled in HTML, CSS, JavaScript, and mastering React.js for dynamic frontends. I enjoy crafting seamless user experiences and staying updated with industry trends. Let's connect and explore opportunities together!</p>
             <div className='icons'>
             <a href={Images} download="resume">
             <button 
