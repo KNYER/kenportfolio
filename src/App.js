@@ -3,7 +3,8 @@ import IDE from './components/IDE';
 import IMAGE from './components/imgken';
 import INFO from './components/info';
 import MAP from './components/map';
-import GRAPH from './components/graph';
+import SKILLS from './components/skills';
+// import GRAPH from './components/graph';
 import CONTACTS from './components/Contacts';
 import Styles from './App.module.css';
 import  './App.css';
@@ -17,7 +18,7 @@ function App() {
   const graphRef = useRef();  
   const [myElementIsVisible, setMyElementIsVisible] = useState();
   const [mapElementIsVisible, setMapElementIsVisible] = useState();
-  const [graphElementIsVisible, setGraphElementIsVisible] = useState();
+  // const [graphElementIsVisible, setGraphElementIsVisible] = useState();
   useEffect(()=>{
     const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];
@@ -27,13 +28,13 @@ function App() {
       const entry = entries[0];
       setMapElementIsVisible(entry.isIntersecting)
     })
-      const observer3 = new IntersectionObserver((entries) => {
-        const entry = entries[0];
-        setGraphElementIsVisible(entry.isIntersecting)
-    })
+    //   const observer3 = new IntersectionObserver((entries) => {
+    //     const entry = entries[0];
+    //     setGraphElementIsVisible(entry.isIntersecting)
+    // })
     observer.observe(myRef.current);
     observer2.observe(mapRef.current);
-    observer3.observe(graphRef.current);
+    // observer3.observe(graphRef.current);
   },[])
   return (
     <div className={Styles.App}>
@@ -57,9 +58,13 @@ function App() {
       <div ref={mapRef} className={`${Styles.map} ${mapElementIsVisible ? Styles.animatetoright : ''}`}>
         <MAP/>
       </div>
-      <div ref={graphRef} className={`${Styles.graph} ${graphElementIsVisible ? Styles.animatetoright : ''}`}>
+      {/* <div ref={graphRef} className={`${Styles.graph} ${graphElementIsVisible ? Styles.animatetoright : ''}`}>
         <GRAPH/>
+      </div> */}
+      <div>
+        <SKILLS />
       </div>
+
     </section>
     <section className={Styles.projects} id='projects'>
       <PRJSLD/>
