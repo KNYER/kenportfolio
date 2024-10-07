@@ -15,10 +15,10 @@ import Images from './img';
 function App() {
   const myRef = useRef();
   const mapRef = useRef();
-  const graphRef = useRef();  
+  const skillRef = useRef();  
   const [myElementIsVisible, setMyElementIsVisible] = useState();
   const [mapElementIsVisible, setMapElementIsVisible] = useState();
-  // const [graphElementIsVisible, setGraphElementIsVisible] = useState();
+  const [skillElementIsVisible, setSkillElementIsVisible] = useState();
   useEffect(()=>{
     const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];
@@ -28,13 +28,13 @@ function App() {
       const entry = entries[0];
       setMapElementIsVisible(entry.isIntersecting)
     })
-    //   const observer3 = new IntersectionObserver((entries) => {
-    //     const entry = entries[0];
-    //     setGraphElementIsVisible(entry.isIntersecting)
-    // })
+      const observer3 = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        setSkillElementIsVisible(entry.isIntersecting)
+    })
     observer.observe(myRef.current);
     observer2.observe(mapRef.current);
-    // observer3.observe(graphRef.current);
+    observer3.observe(skillRef.current);
   },[])
   return (
     <div className={Styles.App}>
@@ -58,10 +58,7 @@ function App() {
       <div ref={mapRef} className={`${Styles.map} ${mapElementIsVisible ? Styles.animatetoright : ''}`}>
         <MAP/>
       </div>
-      {/* <div ref={graphRef} className={`${Styles.graph} ${graphElementIsVisible ? Styles.animatetoright : ''}`}>
-        <GRAPH/>
-      </div> */}
-      <div>
+      <div ref={skillRef} className={`${Styles.skills} ${skillElementIsVisible ? Styles.animatetoright : ''}`}>
         <SKILLS />
       </div>
 

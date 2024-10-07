@@ -222,18 +222,13 @@ section{
   position: relative;
 } */
 
-.skills{
-  background-color: var(--textColor);
-  border-radius: 50px;
-  margin: 5%;
-  height: 100%;
-}
 
 .skills h1{
   font-size: 50px;
   padding: 5%;
   z-index: -1;
   color: var(--maiinColorLight);
+  
 }
 
 .skcontainer {
@@ -248,6 +243,13 @@ section{
   color: var(--maiinColorLight);
 }
 
+@media only screen and (max-width:1024px){
+  .skicons{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+  }
+}
 /*PROJECTS*/
 .projects {
   display: grid;
@@ -485,7 +487,9 @@ section{
     font-size: 20px;
     opacity: 100%;
   }
-
+  .map{
+    margin-top: 20%;
+  }
   .graph{
     height: 1fr;
     padding: 0;
@@ -504,6 +508,7 @@ section{
   .about {
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr;
+    grid-gap: 2em;
   }
   .projects {
     

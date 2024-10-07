@@ -156,12 +156,19 @@ body{
   align-items: center;
   justify-content: center;
   padding: 7%;
-  grid-area: 2/1/2/2;
+  
 
+}
+.skills{
+  background-color: var(--textColor);
+  border-radius: 50px;
+  margin: 5%;
+  height: 100%;
+  grid-area: 2/1/2/2;
 }
 
 
-.graph{
+/* .graph{
   padding-top:2% ;
   display: flex;
   align-items: center;
@@ -169,7 +176,7 @@ body{
   justify-content: center;
   grid-area: 1/2/3/2;
   position: relative;
-}
+} */
 
 /*PROJECTS*/
 .projects {
@@ -279,9 +286,17 @@ body{
     grid-area: 3/1/3/2;
   }
   .info{
+    padding: 3%;
     background-color: #f3f3f3;
     transition: 2s;
+    height: auto;
   }
+
+  .skills{
+    margin-top: 5%;
+    margin-bottom: 50%;
+  }
+  
   /*COMPONENT_CONTAINERS*/
   .home {
     width: 100%;
@@ -291,6 +306,7 @@ body{
   .about {
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr;
+    grid-gap: 2em;
   }
   .projects {
     grid-template-rows: 1fr;
