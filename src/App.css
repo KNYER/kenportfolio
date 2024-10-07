@@ -501,6 +501,9 @@ section{
     background-color: #272D3D;
     transition: 2s;
   }
+  .icons{
+    font-size: 20px;
+  }
   /*COMPONENT_CONTAINERS*/
   .home {
     width: 100%;
