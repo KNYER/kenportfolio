@@ -292,10 +292,6 @@ body{
     height: auto;
   }
 
-  .skills{
-    margin-top: 5%;
-    margin-bottom: 50%;
-  }
   
   /*COMPONENT_CONTAINERS*/
   .home {
@@ -319,7 +315,9 @@ body{
     grid-template-columns: 1fr 1fr;
     width: 100%;
   }
- 
+ .email{
+  margin: 10%;
+ }
 }
 
 .animatetoright{
