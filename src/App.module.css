@@ -67,6 +67,8 @@ body{
   animation-iteration-count: infinite; 
   animation-direction: alternate;
 }
+
+
 @keyframes imgcirc {
   0%{
     border-radius: 200px 900px 200px 900px;
@@ -163,7 +165,8 @@ body{
   background-color: var(--textColor);
   border-radius: 50px;
   margin: 5%;
-  height: 100%;
+  width: 60%;
+  margin-left: 20%;
   grid-area: 2/1/2/3;
 }
 

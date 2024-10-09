@@ -224,7 +224,8 @@ section{
 
 
 .skills h1{
-  font-size: 50px;
+  display: flex;
+  font-size: 40px;
   padding: 5%;
   z-index: -1;
   color: var(--maiinColorLight);
@@ -235,24 +236,54 @@ section{
   display: flex;
 }
 
-.skicons{
+.skicons {
   display: flex;
-  padding-top: 5%;
   font-size: 60px;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 50px;
   color: var(--maiinColorLight);
 }
 
+.skicons p{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+.sktitle{
+  visibility: hidden;
+  display: flex;
+  z-index: 50;
+}
+
+.sktitle h2{
+  font-size: 20px;
+}
+
+.skicons p:hover  .sktitle{
+  visibility: visible;
+}
+
+.skicons p:hover{
+  color: #781720;
+  background-color:var(--mainColor);
+  border-radius: 20%;
+}
 
 
 @media only screen and (max-width:1024px){
   .skicons{
     display: flex;
-    padding-top: 30%;
-    font-size: 40px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 50px;
+    gap: 5px;
     flex-direction: column;
-    margin-bottom: 20%;
+  }
+  .skills h1{
+    display: flex;
+    font-size: 30px;
+    
   }
 }
 /*PROJECTS*/
