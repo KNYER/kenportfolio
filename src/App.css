@@ -558,6 +558,9 @@ section{
     width: 100%;
   }
 
+  .prcontainer h1{
+    font-size: 30px;
+  }
   .contacts{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
