@@ -8,7 +8,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const PRJSLD = () => {
   const [text] = useTypewriter({
-    words: ["</projects>"],
+    words: ["<projects />"],
     loop: {},
   });
 

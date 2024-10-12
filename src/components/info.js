@@ -6,7 +6,7 @@ const INFO = () => {
   
 
     let [text] = useTypewriter({
-        words: ["</about>"],
+        words: ["<about />"],
         loop: {}
     });
     

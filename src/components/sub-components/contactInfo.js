@@ -4,7 +4,7 @@ import { FaLinkedin, FaTwitter, FaFacebook,FaInstagram,FaGithub } from 'react-ic
 const CINFO = () => {
     
     let [text] = useTypewriter({
-        words: ["</contacts>"],
+        words: ["<contacts />"],
         loop: {}
     });
     return ( 

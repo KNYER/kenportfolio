@@ -58,7 +58,7 @@ function App() {
       <div ref={mapRef} className={`${Styles.map} ${mapElementIsVisible ? Styles.animatetoright : ''}`}>
         <MAP/>
       </div>
-      <div ref={skillRef} className={`${Styles.skills} ${skillElementIsVisible ? Styles.animatetoright : ''}`}>
+      <div ref={skillRef} className={`${Styles.skills} ${skillElementIsVisible ? Styles.animatetorleft : ''}`}>
         <SKILLS />
       </div>
 

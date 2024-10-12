@@ -6,7 +6,7 @@ import { Cursor, useTypewriter} from 'react-simple-typewriter';
 const SKILLS = () => {
 
     let [text] = useTypewriter({
-        words: ["</skills>", "</stack>"],
+        words: ["<skills />", "<stack />"],
         loop: {}
     });
 
